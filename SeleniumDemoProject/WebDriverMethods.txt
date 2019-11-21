@@ -1,0 +1,15 @@
+MethodsOfWebDriverInterface
+   methodName             returnType      formalArguments
+ 1.get()                  void            String
+ 2.getTitle()             String            -
+ 3.getCurrentUrl()        String            -
+ 4.getPageSource()        String            -
+ 5.close()                -                 -
+ 6.quit()                 -                 -
+ 7.findElement()          By by            WebElement
+ 8.findElements()         By by            List<WebElement>
+ 9.getWindowHandle()      String            -
+ 10.getWindowHandles()    Set<String>       -
+ 11.manage()              Options           -
+ 12.navigate()            Navigation        -
+ 13.switchTo()            TargetLocator     - 
